@@ -1,0 +1,13 @@
+Result Size: 385 x 288
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const container = document.getElementById('sandy');
+const root = ReactDOM.createRoot(container);
+root.render(<p>Hallo</p>);
+
+/*
+For this example to work on your project,
+you must have a element with
+id="sandy" on your "index.html" page.
+*/
